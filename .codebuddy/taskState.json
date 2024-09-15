@@ -1,0 +1,4 @@
+{
+  "TaskDescription": "Implement the building outline calculation method using TDD to ensure a robust solution. Ensure it is also optimally performant in terms of big O notation.",
+  "ProjectContext": " Building outline calculator. It takes a set of rectangles and returns the minimum list of ordered points required to draw an outline of a list of rectangles. Draw a line starting at the bottom leftmost point of any building that finishes at the bottom rightmost point of any building, following the line of the buildings in between. Assume that all rectangles are defined by a bottom left corner(x, y), a width and a height."
+}
