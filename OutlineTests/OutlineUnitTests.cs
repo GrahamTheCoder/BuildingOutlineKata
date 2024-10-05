@@ -17,7 +17,7 @@ namespace OutlineTests
         {
             var buildings = ParseBuildings(buildingSpecs);
             var expectedPoints = ParsePoints(pointSpecs);
-            var outline = OutlineGenerator.GenerateOutline(buildings);
+            var outline = new OutlineGenerator().GenerateOutline(buildings);
             Assert.That(outline, Is.EqualTo(expectedPoints));
         }
 

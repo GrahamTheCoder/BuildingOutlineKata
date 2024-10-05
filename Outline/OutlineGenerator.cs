@@ -9,12 +9,7 @@ namespace Outline
 {
     public class OutlineGenerator
     {
-        public static Point[] GenerateOutline(CartesianBuilding[] buildings)
-        {
-            return new OutlineGenerator().GenerateOutline();
-        }
-
-        private Point[] GenerateOutline()
+        public Point[] GenerateOutline(CartesianBuilding[] buildings)
         {
             throw new NotImplementedException();
         }
